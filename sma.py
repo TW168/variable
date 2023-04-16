@@ -102,8 +102,8 @@ def plot_chart(data, ticker):
     fig.update_layout(title=f'{ticker} Price with SMA ',
                       xaxis_title='Date',
                       yaxis_title='Price',
-                      width=1300, # Custom width
-                      height=600, # Custom height
+                      #width=1300, # Custom width
+                      #height=600, # Custom height
                       xaxis_rangeslider_visible=False)
 
     # Display the chart
